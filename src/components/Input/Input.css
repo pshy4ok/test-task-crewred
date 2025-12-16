@@ -1,0 +1,97 @@
+.input-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input-wrapper input.input-field {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  width: 200px;
+  background-color: #fff;
+  transition:
+    padding-right 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.input-wrapper input.input-field:hover {
+  border-color: #888;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-wrapper input.input-field:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.3);
+  background-color: #fefefe;
+}
+
+.input-wrapper input.with-toggle {
+  padding-right: 2.5rem;
+}
+
+.input-wrapper input.with-two-buttons {
+  padding-right: 4.5rem;
+}
+
+.toggle-btn-wrapper {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.toggle-btn-wrapper span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.toggle-btn-wrapper span.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.clear-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%) scale(0.8);
+  opacity: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #555;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  pointer-events: none;
+}
+
+.input-wrapper input.with-two-buttons ~ .clear-btn {
+  right: 2.5rem;
+}
+
+.clear-btn.show {
+  opacity: 0.7;
+  transform: translateY(-50%) scale(1);
+  pointer-events: auto;
+}
+
+.clear-btn:hover {
+  transform: translateY(-50%) scale(1.1);
+  opacity: 1;
+}
