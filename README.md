@@ -111,66 +111,48 @@ This will start Storybook at `http://localhost:6006` where you can:
 
 - **Storybook overview**
 
-```markdown
 ![Storybook - Component overview](docs/screenshots/storybook-overview.png)
-```
 
 ### **Input Component (multiple states)**
 
 - **Default text input**
 
-```markdown
 ![Input - Text](docs/screenshots/input-text.png)
-```
 
 - **Password with toggle**
 
-```markdown
 ![Input - Password Unvisible](docs/screenshots/input-password-unvisible.png)
 ![Input - Password Visible](docs/screenshots/input-password-visible.png)
-```
 
 - **Number input & clearable**
 
-```markdown
 ![Input - Number](docs/screenshots/input-number.png)
 ![Input - Clearable](docs/screenshots/input-clearable.png)
-```
 
 ### **SidebarMenu Component (multiple states)**
 
 - **Sidebar open with nested items**
 
-```markdown
 ![SidebarMenu - Open](docs/screenshots/sidebar-open.png)
-```
 
 - **Sidebar closed / overlay**
 
-```markdown
 ![SidebarMenu - Closed](docs/screenshots/sidebar-closed.png)
-```
 
 - **Interactive open/close**
 
-```markdown
 ![SidebarMenu - Interactive Closed](docs/screenshots/sidebar-interactive-closed.png)
 ![SidebarMenu - Interactive Open](docs/screenshots/sidebar-interactive-open.png)
-```
 
 ### **Toast Component (multiple states)**
 
 - **Success / Error / Info**
 
-```markdown
 ![Toast - Success](docs/screenshots/toast-success.png)
 ![Toast - Error](docs/screenshots/toast-error.png)
 ![Toast - Info](docs/screenshots/toast-info.png)
-```
 
 - **Closable and interactive**
 
-```markdown
 ![Toast - Closable](docs/screenshots/toast-closable.png)
 ![Toast - Interactive](docs/screenshots/toast-interactive.png)
-```
